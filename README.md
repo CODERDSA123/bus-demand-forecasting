@@ -48,6 +48,3 @@ The generated `artifacts/metrics.json` contains validation and test MAE, RMSE, W
 
 Demand is capped at bus capacity, so observed bookings are censored and full buses may hide unmet demand. The data is synthetic and is not equivalent to real passenger behaviour. New routes are cold starts, disruption days may not resemble future disruptions, and unusual events can cause large errors. The model is decision support only and every recommendation requires human planner review.
 
-## Unfinished work
-
-The MVP is complete for the requested synthetic-data workflow. Production deployment would still require real booking data, monitoring, retraining governance, authentication, and a planner-approved operational integration.
